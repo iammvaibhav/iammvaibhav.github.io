@@ -1,0 +1,54 @@
+@import "../partials/burger";
+@import "../partials/nav";
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    min-height: 100%;
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.main {
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.menu-item {
+    padding: 0px;
+}
+
+.post-title {
+    text-align: start;
+}
+
+.post-description {
+    text-align: justify;
+}
+
+.post-body {
+    margin-top: 3em !important;
+}
+
+@media screen and (min-width: $maxWidth) {
+  .post-title {
+      margin-top: 0px;
+  }
+}
+
+#load-comments {
+  display: none;
+}
+
+.post-title-now {
+  @extend .post-title;
+  margin-bottom: 0em;
+}
+
+.post-modified-now {
+  margin: 0em;
+  color: var(--color-contrast-medium)
+}

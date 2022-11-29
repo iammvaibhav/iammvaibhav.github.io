@@ -1,0 +1,19 @@
+// CHANGED_FROM_ORIGINAL
+.theme-switcher {
+    transition: color $duration;
+    z-index: 4;
+
+    &:hover {
+        color: var(--color-contrast-high);
+    }
+
+    .icon {
+        margin-right: 0 !important;
+    }
+}
+
+@if (not $headerLayoutFlex) {
+    .theme-switcher {
+        float: right;
+    }
+}

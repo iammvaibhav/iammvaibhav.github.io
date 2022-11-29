@@ -1,0 +1,19 @@
+<nav class="nav" role="navigation">
+  <ul class="nav__list">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      <li>
+        <a {{ if or (or ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.Section .Identifier)) (eq $currentPage.Params.id .Identifier) }} class="active"
+        {{end}} href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ if and (eq .Identifier "theme-switcher") $.Site.Params.enableDarkMode }}
+          {{ $switcher := partial "components/dark-mode.html" $currentPage }}
+          {{ with $switcher }}
+              <li class="menu-item theme-switcher-menu-item">
+                  {{ . }}
+              </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+  </ul>
+</nav>

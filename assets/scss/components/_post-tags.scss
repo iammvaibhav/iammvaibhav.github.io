@@ -1,0 +1,29 @@
+@import '../partials/colors';
+
+.post-tags {
+    margin-top: 2rem;
+    text-align: right;
+    font-size: 90%;
+}
+
+.post-tags-link {
+    margin: 0 0.5em;
+    line-height: 2;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    background: lighten($primary, 41%);
+    color: $primary;
+    font-size: 0.8rem;
+
+    &:hover {
+      background: lighten($primary, 38%);
+      color: $primary;
+    }
+}
+
+.tag-icon {
+    margin-right: 0.3em;
+    font-size: 80%;
+}

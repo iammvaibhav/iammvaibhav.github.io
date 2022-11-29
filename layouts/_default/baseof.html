@@ -1,0 +1,40 @@
+<!-- CHANGED_FROM_ORIGINAL -->
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}"{{ if and .Site.Params.enableDarkMode .Site.Params.overrideSystemPreferences }}{{ with .Site.Params.defaultTheme | default "light" }} data-theme="{{ . }}"{{ end }}{{ end }}>
+    {{ partial "head.html" . }}
+
+    <!-- Styles -->
+    {{ block "styles" . }} {{ end }} <!-- Get "style_opts" variable from "styles" block -->
+    {{ $base_styles_opts := .Scratch.Get "style_opts" | default (dict "src" "scss/pages/nothing.scss" "dest" "css/nothing.css") }}
+
+    {{ $current_page := . }}
+
+    {{ range (slice $base_styles_opts) }}
+    {{ $style := resources.Get .src | resources.ExecuteAsTemplate .dest $current_page | toCSS | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"/>
+    {{ end }}
+
+    <body>
+      {{ partial "burger.html" .}}
+
+      {{ partial "nav.html" .}}
+
+        <div class="container">
+              <!-- {{ partial "header.html" . }}
+              {{ if ne .Site.Params.headerLayout "flex" }}
+                  {{ if or (and .IsHome .Site.Params.displayMenuInHome) (and (not .IsHome) .Site.Params.enableMenu) }}
+                      {{ partial "menu.html" . }}
+                  {{ end }}
+                  {{ partial "components/multilingual.html" . }}
+                  {{ partial "components/dark-mode.html" . }}
+              {{ end }} -->
+            <main>
+              {{ block "main" . }}{{ end }}
+            </main>
+            {{ partial "components/back-to-top.html" . }}
+            {{ partial "footer.html" . }}
+        </div>
+
+        {{ partial "third-party/script.html" . }}
+    </body>
+</html>
