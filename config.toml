@@ -208,11 +208,11 @@ uglyURLs = false
         url = "/blog/"
         name = "blog"
         weight = 2
-    [[menu.main]]
-        identifier = "now"
-        url = "/now/"
-        name = "now"
-        weight = 3
+    # [[menu.main]]
+    #     identifier = "now"
+    #     url = "/now/"
+    #     name = "now"
+    #     weight = 3
     # [[menu.main]]
     #     weight = 6
     #     identifier = "theme-switcher"
