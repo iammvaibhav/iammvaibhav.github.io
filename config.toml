@@ -228,16 +228,15 @@ uglyURLs = false
     twitter = "https://twitter.com/iammvaibhav"
     github = "https://github.com/iammvaibhav"
     email = "mailto:iammvaibhav@gmail.com"
-    facebook = "https://facebook.com/iammvaibhav"
     # gitlab = "https://gitlab.com/<your handle>"
-    # instagram = "https://instagram.com/<your handle>"
+    instagram = "https://instagram.com/iammvaibhav"
     linkedin = "https://linkedin.com/in/iammvaibhav"
     # youtube = "https://www.youtube.com/channel/<your channel>"
 
     # Titles for your icons (shown as tooltips), and also their display order.
     # Currently, these icons are supported:
     #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
-    iconOrder = ["GitHub", "LinkedIn", "Email", "Twitter", "Facebook"]
+    iconOrder = ["GitHub", "LinkedIn", "Email", "Instagram", "Twitter"]
     enableHeader = false
 
     displayHeaderInHome = false
@@ -636,7 +635,7 @@ uglyURLs = false
 
     ## Disqus
     enableDisqus = true
-    disqusShortname = "vaibhavmaheshwari"
+    disqusShortname = "vmwrites"
 
     ## Valine
     enableValine = false
@@ -680,7 +679,7 @@ uglyURLs = false
     trackingCodeType = "gtag"
     # Note: gtag or analytics
 
-    trackingID = "UA-171498171-1"
+    trackingID = "G-XKGZ4P4B2D"
 
 
     ######################################
