@@ -14,7 +14,7 @@ I’m celebrating my one-year lifting journey! 🎉 
 
 16th November 2021 - The day when it all began. I had been trying to adopt a healthy lifestyle for the longest time as 12 hours sitting in front of the computer wasn’t making my body very happy (and of course, I wanted to have those abs and a perfect beach body). The problem was me being me, who wanted to stay away from any physical activity whatsoever wasn’t on board with the idea of going to the gym. It was when one of my close friends joined the gym (who was even a bigger couch potato than I was) that made me ponder “If she can do it, what’s stopping me?”. As silly as it might sound, that was the foundation of my lifting journey.
 
-![Chilly Winters of Ajmer](/images/chilly_winters.png "Wrapped from head to toe in the chilly winters of December 2020, heading towards the gym at 6:00 am wintry morning. It used to be dark and temperatures used to be as low as 5 degrees. I used to sleep by 9:30 pm, wake up by 4:30 am, have my pre-workout meal at 5:00 am, and leave by 6:00 am. From sleeping at 4:30 am to waking up at 4:30 am, lifting certainly made me do some crazy stuff.")
+![Chilly Winters of Ajmer](/images/chilly_winters.png "Wrapped from head to toe in the chilly winters of December 2021, heading towards the gym at 6:00 am wintry morning. It used to be dark and temperatures used to be as low as 5 degrees. I used to sleep by 9:30 pm, wake up by 4:30 am, have my pre-workout meal at 5:00 am, and leave by 6:00 am. From sleeping at 4:30 am to waking up at 4:30 am, lifting certainly made me do some crazy stuff.")
 
 > After arriving home, my upper body was in a lot of pain! I wasn't able to move, raise my arms, or do anything. I also took a day off from the office.
 > 
